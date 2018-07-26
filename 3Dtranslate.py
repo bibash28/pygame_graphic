@@ -51,16 +51,6 @@ def translate(x,y,z,tx,ty,tz):
 
  return result[0][0],result[1][0],result[2][0]
 
-
-'''
-pygame.draw.polygon(window,black,((50,50),(20,100),(80,100)),1)
-#translation
-tx,ty = 100,100
-a1,b1 = translate(50,50,tx,ty)
-a2,b2 = translate(20,100,tx,ty)
-a3,b3 = translate(80,100,tx,ty)
-pygame.draw.polygon(window,red,((a1,b1),(a2,b2),(a3,b3)),1)
-'''
 #before
 a1, b1, c1 = 2+0, 2+0, 2+0 
 a2, b2, c2 = 2+1, 2+0, 2+0
