@@ -3,7 +3,7 @@ pygame.init()
 from math import sin, cos, radians
 
 window = pygame.display.set_mode((640,480))
-pygame.display.set_caption("Homogeneous Transformation")
+pygame.display.set_caption("#D Translation")
 clock = pygame.time.Clock()
 
 black = (0,0,0)
